@@ -8,13 +8,16 @@ public class StackToQueue {
     Stack<Integer> stack2 = new Stack<Integer>();
 
     public void push(int node) {
-        if(!stack1.empty()) {
-
+        while(!stack2.isEmpty()) {
+            stack1.add(stack2.pop());
         }
         stack1.add(node);
     }
 
     public int pop() {
-       return 0;
+        while(!stack1.isEmpty()) {
+            stack2.add(stack1.pop());
+        }
+        return stack2.pop();
     }
 }
