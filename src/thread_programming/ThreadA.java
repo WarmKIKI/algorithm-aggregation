@@ -2,15 +2,16 @@ package thread_programming;
 
 public class ThreadA extends Thread{
         private HasSelfPrivateNum numRef;
+        private Run run;
 
-        public ThreadA(HasSelfPrivateNum numRef) {
+        public ThreadA(Run run) {
             super();
-            this.numRef = numRef;
+            this.run = run;
         }
 
         @Override
         public void run() {
             super.run();
-            numRef.addI("a");
+            run.getTicket();
         }
 }
