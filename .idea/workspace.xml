@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc49f42c-c4ea-4eae-b791-c5cf1e58ce6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread_programming/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm-aggregation/thread_programming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm-aggregation/thread_programming/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm-aggregation/thread_programming/ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm-aggregation/thread_programming/ThreadA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm-aggregation/thread_programming/ThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm-aggregation/thread_programming/ThreadB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread_programming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread_programming/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread_programming/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread_programming/ThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread_programming/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread_programming/ThreadB.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +141,7 @@
       <workItem from="1575871495507" duration="1202000" />
       <workItem from="1575962412603" duration="1196000" />
       <workItem from="1576035151193" duration="22928000" />
-      <workItem from="1576808573096" duration="1802000" />
+      <workItem from="1576808573096" duration="2251000" />
     </task>
     <servers />
   </component>
