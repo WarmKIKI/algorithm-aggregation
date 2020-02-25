@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc49f42c-c4ea-4eae-b791-c5cf1e58ce6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exam/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm-aggregation/thread_programming/ThreadProgrammingStudyNote.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm-aggregation/thread_programming/ThreadProgrammingStudyNote.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/note/深入理解java虚拟机.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/深入理解java虚拟机.txt" afterDir="false" />
-    </list>
+    <list default="true" id="fc49f42c-c4ea-4eae-b791-c5cf1e58ce6a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +189,7 @@
       <workItem from="1581474343944" duration="15649000" />
       <workItem from="1581572934455" duration="43782000" />
       <workItem from="1581911329375" duration="74156000" />
+      <workItem from="1582619390069" duration="279000" />
     </task>
     <servers />
   </component>
