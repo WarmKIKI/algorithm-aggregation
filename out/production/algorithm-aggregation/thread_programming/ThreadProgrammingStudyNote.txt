@@ -41,3 +41,48 @@
 * synchronized同步语句块
 * 不在synchronized块中就是异步执行，在synchronized块中就是同步执行。
    synchronized代码块间的同步性
+
+* volatile
+   volatile关键字的主要作用是使得变量在多个线程间可见。volatile具有可见性，但不支持原子性。
+
+* wait()/notify()
+   wait()被执行，锁被自动释放，但执行完notify()方法，锁却不自动释放。
+   wait()的作用是让当前线程进入等待状态，同时，wait()也会让当前线程释放它所持有的锁。而notify()和notifyAll()的作用，则是唤醒当前对象上的等待线程；notify()是唤醒单个线程，而notifyAll()是唤醒所有线程。
+   方法notify()仅随机唤醒一个线程，当多次调用notify()方法时，会随机将等待wait状态的线程唤醒。
+   唤醒全部线程，可以使用notifyAll()方法。
+   wait(long)的功能是等待某一个时间内是否有线程对锁进行唤醒，如果超过这个时间则自动唤醒。
+
+* 生产者与消费者
+   join()的作用是使所属的线程对象x正常执行run()方法中的任务，而使得当前线程z进行无期限的阻塞，等待线程x销毁后再继续执行线程z后面的代码。
+   比如，线程A调用了join()后，必须等待A执行完毕后才可以执行main线程的代码或者其他线程的代码。
+
+ join() 和 interrupt()如果彼此遇到，则会出现异常。
+ join()方法中的参数是设定等待时间。
+ join(long)方法的功能在内部是使用wait(long)方法来实现的，所以join(long)方法具    有释放锁的特点。
+ sleep(long)具有不释放锁的特点。
+
+* threadLocal类的使用
+  子线程和父线程各有各自所拥有的值。
+
+* InheritableThreadLocal的使用
+   使用InheritableThreadLocal类可以让子线程从父线程中取得值。
+
+* Lock使用
+  使用ReentrantLock类
+
+  synchronized关键字与wait()和notify()/notifyAll()方法相结合可以实现等待/通知模式
+  reentrantLock借助于Condition对象也可以实现同样的功能
+
+  Object类中的wait()方法相当于Condition类中的await()方法。
+  Object类中的wait(long timeout)方法相当于Condition类中的await(long time, TimeUnit unit)方法。
+  Object类中的notify()方法相当于Condition类中的signal()。
+  Object类中的notifyAll()方法相当于Condition类中的signalAll()方法。
+
+*  公平锁与非公平锁
+  公平锁表示线程获取锁的顺序是按照线程加锁的顺序来分配的，即先来先得的FIFO先进先出的顺序。
+  非公平锁就是一种获取锁的枪占机制，是随机获得锁的，和公平锁不一样的就是先来的不一定先得到锁，这个方式可能造成某些线程一直拿不到锁，结果也就是不公平的了。
+
+ 方法boolean hasQueuedThread(Thread thread)的作用是查询指定的线程是否正在等待获取此锁定。
+方法boolean isFair()的作用是判断是不是公平锁。
+
+ 默认情况下，ReentrantLock类使用的是非公平锁。
