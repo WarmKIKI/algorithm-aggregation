@@ -1,9 +1,6 @@
 package leetcode.top100;
 
-import com.sun.tools.javac.code.Scope;
-
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 public class MajorityElement {
