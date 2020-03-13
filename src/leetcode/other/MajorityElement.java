@@ -1,0 +1,8 @@
+package leetcode.other;
+
+public class MajorityElement {
+    public int majorityElement(int[] nums) {
+
+        return 0;
+    }
+}
