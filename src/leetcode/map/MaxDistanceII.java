@@ -1,4 +1,4 @@
-package map;
+package leetcode.map;
 
 import java.util.LinkedList;
 import java.util.Queue;

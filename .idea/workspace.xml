@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc49f42c-c4ea-4eae-b791-c5cf1e58ce6a" name="Default Changelist" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/algorithm-aggregation/leetcode/string/MinimumLengthEncoding.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/algorithm-aggregation/leetcode/string/MinimumLengthEncodingII.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/algorithm-aggregation/leetcode/string/Test.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/algorithm-aggregation/map/MaxDistance.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/string/MinimumLengthEncoding.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/string/MinimumLengthEncodingII.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/string/Test.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/map/MaxDistance.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/map/MaxDistanceII.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithm-aggregation/leetcode/math/HasGroupsSizeXII.class" afterPath="" />
     </list>
@@ -89,8 +98,8 @@
       <file leaf-file-name="MaxDistance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map/MaxDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+            <state relative-caret-position="-312">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +110,8 @@
       <file leaf-file-name="MaxDistanceII.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/map/MaxDistanceII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="130">
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,8 +218,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/string/Test.java" />
         <option value="$PROJECT_DIR$/src/leetcode/string/MinimumLengthEncoding.java" />
         <option value="$PROJECT_DIR$/src/leetcode/string/MinimumLengthEncodingII.java" />
-        <option value="$PROJECT_DIR$/src/map/MaxDistance.java" />
         <option value="$PROJECT_DIR$/src/map/MaxDistanceII.java" />
+        <option value="$PROJECT_DIR$/src/map/MaxDistance.java" />
       </list>
     </option>
   </component>
@@ -506,12 +515,12 @@
       <workItem from="1585015876496" duration="23062000" />
       <workItem from="1585223312908" duration="4758000" />
       <workItem from="1585304468748" duration="17836000" />
-      <workItem from="1585410327675" duration="6984000" />
+      <workItem from="1585410327675" duration="7216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189847000" />
+    <option name="totallyTimeSpent" value="190079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,7 +533,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="401" y="0" width="1524" height="1038" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -536,7 +544,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24742268" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21764033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21764033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17586207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -547,7 +555,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08934708" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3585338" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2455,8 +2463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/MaxDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="-312">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2465,8 +2473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/MaxDistanceII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="130">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
