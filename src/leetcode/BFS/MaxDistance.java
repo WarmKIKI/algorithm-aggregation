@@ -1,4 +1,4 @@
-package leetcode.map;
+package leetcode.BFS;
 
 import java.util.LinkedList;
 import java.util.Queue;
