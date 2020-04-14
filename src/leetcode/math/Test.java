@@ -2,12 +2,14 @@ package leetcode.math;
 
 public class Test {
     public static void main(String[] args) {
-        int one = 0;
+        /*int one = 0;
         int two = 27;
         Test test = new Test();
-       int value = test.gcd_1(one,two);
-        System.out.println(value);
+       int value = test.gcd_1(one,two);*/
+       // System.out.println(value);
         //System.out.println(one%two);
+        double[] value = new double[0];
+        System.out.println(value);
     }
 
     int gcd_1(int a, int b){
